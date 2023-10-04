@@ -1,0 +1,39 @@
+.container__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contentTitle{
+  display: flex;
+  justify-content: center;
+}
+.contentImages{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.contentImages >img{
+  width: 60%;
+  height: 300px;
+}
+.container__contentDescripition{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.contentDescripition{
+  width: 75%;
+}
+.code{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  height: 50px;
+  border: 2px solid white;
+  background-color: grey;
+}
+.code >p{
+  background-color: grey;
+  padding-top: 10px;
+}
